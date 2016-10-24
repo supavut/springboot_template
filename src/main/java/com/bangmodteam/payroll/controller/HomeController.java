@@ -31,7 +31,7 @@ public class HomeController {
 	
 	@Secured("ROLE_USER")
 	@RequestMapping(value="/", method=RequestMethod.GET)
-	public String home(Locale locale,Model model) {
+	public String home(Model model) {
         model.addAttribute("thymeleaf", "Test thymeleaf");  
         return "dashboard/dashboard";  
 	}
