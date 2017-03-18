@@ -1,9 +1,8 @@
-package com.bangmodteam.payroll.controller;
+package com.bangmodteam.workshop.controller;
 
 import java.io.IOException;
 import java.util.Locale;
 
-import javax.annotation.security.PermitAll;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,13 +15,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.bangmodteam.payroll.constant.RoleType;
-import com.bangmodteam.payroll.entity.Customer;
-import com.bangmodteam.payroll.repository.CustomerRepository;
+import com.bangmodteam.workshop.constant.RoleType;
+import com.bangmodteam.workshop.entity.Customer;
+import com.bangmodteam.workshop.repository.CustomerRepository;
 
 
 @Controller
-@PermitAll
 public class HomeController {
 
 	@Autowired

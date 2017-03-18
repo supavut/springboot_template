@@ -1,4 +1,4 @@
-package com.bangmodteam.payroll.entity;
+package com.bangmodteam.workshop.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Customer {
+public class Customer extends BaseEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

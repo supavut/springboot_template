@@ -1,4 +1,4 @@
-package com.bangmodteam.payroll.service.auth;
+package com.bangmodteam.workshop.service.auth;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,9 +13,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bangmodteam.payroll.entity.Role;
-import com.bangmodteam.payroll.entity.User;
-import com.bangmodteam.payroll.repository.UserRepository;
+import com.bangmodteam.workshop.entity.Role;
+import com.bangmodteam.workshop.entity.User;
+import com.bangmodteam.workshop.repository.UserRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

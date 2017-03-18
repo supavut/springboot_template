@@ -1,4 +1,4 @@
-package com.bangmodteam.payroll.entity;
+package com.bangmodteam.workshop.entity;
 
 import java.util.Set;
 
@@ -21,13 +21,12 @@ import lombok.Setter;
 @Table(name = "user")
 @Setter
 @Getter
-public class User {
+public class User extends BaseEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String username;
 	private String password;
-
 	@Transient
 	private String passwordConfirm;
 	

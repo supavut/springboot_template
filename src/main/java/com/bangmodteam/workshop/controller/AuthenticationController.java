@@ -1,8 +1,7 @@
-package com.bangmodteam.payroll.controller;
+package com.bangmodteam.workshop.controller;
 
 import java.util.Locale;
 
-import javax.annotation.security.PermitAll;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

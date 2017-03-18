@@ -1,4 +1,4 @@
-package com.bangmodteam.payroll.constant;
+package com.bangmodteam.workshop.constant;
 
 public enum RoleType {
 	
